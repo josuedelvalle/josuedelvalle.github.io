@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Josue del Valle — Sequence Engineer & AI Builder</title>
+    <meta
+      name="description"
+      content="Josue del Valle — Sequence Engineer at ASML, building AI and machine learning systems grounded in real semiconductor engineering."
+    />
+    <style>
+      :root {
+        --bg-0: #0b1220;
+        --bg-1: #101a2e;
+        --ink: #f4f7ff;
+        --ink-soft: #c4d2ec;
+        --ink-mute: #8fb4ff;
+        --violet: #7c5cff;
+        --blue: #4f8bff;
+        --cyan: #34d6d0;
+        --chip-bg: #16203a;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+          Arial, sans-serif;
+        background:
+          radial-gradient(
+            900px 500px at 80% 0%,
+            rgba(124, 92, 255, 0.12),
+            transparent 60%
+          ),
+          radial-gradient(
+            700px 500px at 15% 100%,
+            rgba(52, 214, 208, 0.1),
+            transparent 60%
+          ),
+          linear-gradient(160deg, var(--bg-0), var(--bg-1) 60%, var(--bg-0));
+        color: var(--ink);
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 32px;
+        line-height: 1.55;
+      }
+      .card {
+        max-width: 720px;
+        width: 100%;
+      }
+      .eyebrow {
+        font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+        letter-spacing: 0.28em;
+        font-size: 0.78rem;
+        color: var(--ink-mute);
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 22px;
+      }
+      .eyebrow::before {
+        content: "";
+        width: 38px;
+        height: 3px;
+        border-radius: 3px;
+        background: linear-gradient(90deg, var(--violet), var(--cyan));
+      }
+      h1 {
+        font-size: clamp(2.4rem, 7vw, 3.6rem);
+        font-weight: 800;
+        letter-spacing: -0.02em;
+        line-height: 1.05;
+        margin-bottom: 18px;
+      }
+      .lead {
+        font-size: clamp(1.05rem, 2.5vw, 1.25rem);
+        color: var(--ink-soft);
+        max-width: 60ch;
+        margin-bottom: 14px;
+      }
+      .lead strong {
+        color: var(--ink);
+        font-weight: 600;
+      }
+      .accent {
+        color: var(--cyan);
+      }
+      .meta {
+        font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+        font-size: 0.85rem;
+        color: var(--ink-mute);
+        margin: 26px 0 22px;
+      }
+      .chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-bottom: 34px;
+      }
+      .chip {
+        font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+        font-size: 0.8rem;
+        font-weight: 600;
+        padding: 7px 14px;
+        border-radius: 999px;
+        background: var(--chip-bg);
+        border: 1px solid rgba(79, 139, 255, 0.35);
+        color: var(--ink-soft);
+      }
+      .links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+      }
+      a.btn {
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 0.95rem;
+        padding: 12px 22px;
+        border-radius: 10px;
+        transition:
+          transform 0.15s ease,
+          box-shadow 0.15s ease;
+      }
+      a.btn:hover {
+        transform: translateY(-2px);
+      }
+      .btn-primary {
+        color: #0b1220;
+        background: linear-gradient(90deg, var(--cyan), var(--blue));
+        box-shadow: 0 8px 24px rgba(52, 214, 208, 0.25);
+      }
+      .btn-ghost {
+        color: var(--ink-soft);
+        border: 1px solid rgba(143, 180, 255, 0.35);
+      }
+      .btn-ghost:hover {
+        border-color: var(--cyan);
+        color: var(--ink);
+      }
+      .footnote {
+        margin-top: 42px;
+        font-size: 0.8rem;
+        color: rgba(143, 180, 255, 0.55);
+        font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        html {
+          scroll-behavior: auto;
+        }
+        a.btn:hover {
+          transform: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <p class="eyebrow">SEQUENCE ENGINEER · ASML</p>
+      <h1>Josue del Valle</h1>
+      <p class="lead">
+        I build <strong>AI and machine learning systems</strong>, grounded in
+        real <span class="accent">semiconductor engineering</span>.
+      </p>
+      <p class="lead">
+        At ASML, I turn complex system requirements into safe, scalable, and
+        efficient workflows for manufacturing and field service. Now I'm
+        channelling that engineering background into applied AI — building
+        systems that don't just call a model, but reason, orchestrate, and solve
+        real problems.
+      </p>
+      <p class="meta">
+        📍 Eindhoven, Netherlands &nbsp; · &nbsp; 💬 English / Español
+      </p>
+
+      <div class="chips">
+        <span class="chip">Python</span>
+        <span class="chip">Machine Learning</span>
+        <span class="chip">LLMs</span>
+        <span class="chip">Cloud · AWS</span>
+        <span class="chip">SQL</span>
+      </div>
+
+      <div class="links">
+        <a class="btn btn-primary" href="https://github.com/josuedelvalle"
+          >GitHub</a
+        >
+        <a
+          class="btn btn-ghost"
+          href="https://www.linkedin.com/in/josuedelvallenicolas/"
+          >LinkedIn</a
+        >
+      </div>
+
+      <p class="footnote">// portfolio projects coming soon</p>
+    </main>
+  </body>
+</html>
